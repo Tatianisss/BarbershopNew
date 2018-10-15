@@ -1,0 +1,181 @@
+html {
+    background-image: url(image/background.png);
+    background-position: 50% 0px;
+    font-family: PT Sans Narrow;
+    font-weight: bold;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    text-align: center;
+}
+.hat {
+    list-style-type: none;
+    color: white;
+    padding: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    font-size: 16px;
+    width: 100%;
+}
+
+.item-hat {
+    display: inline;
+    margin-right: 25px;
+
+}
+.sing-up {
+    padding-left: 215px;
+    display: inline;
+}
+.logo {
+    text-align: center;
+    padding-top: 100px;
+}
+.reklama {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    
+}
+.bistro, .kruto, .dorogo {
+    width: 35%;
+}
+
+.item-bistro, .item-kruto, .item-dorogo {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.romb {
+    margin-top: 15px;
+    margin-bottom: 15px 
+}
+.news {
+    width: 50%;
+    font-size: 30px;
+
+}
+.news1 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.news2 {
+    padding-top: 40px;
+}
+
+.foto {
+    width: 45%;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 30px;
+    
+}
+.foto1 {
+    text-align: center;
+}
+
+.view {
+    background-color: white;
+    margin: 50px 20% 0px 19%;
+    padding: 50px 10px 40px 80px;
+    display: flex;
+}
+.foto2 {
+    margin-top: 20px;
+}
+.contacts {
+    font-size: 30px;
+    
+}
+.contacts1 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.contacts2 {
+    margin-top: 20px;
+}
+.write {
+    padding-left: 20%; 
+    font-size: 30px;
+}
+.write1 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.input {
+    width: 400px;
+    height: 200px;
+    display: flex;   
+    font-size: 14px;
+}
+
+.left-input {
+ width: 200px;
+    height: 10px;
+
+}
+
+.right-input {
+ width: 200px;
+    height: 10px;
+
+}
+
+
+.order-down {
+    width: 303px;
+    height: 50px;
+    margin-left: 110px;
+}
+
+p {
+ margin-left: 20px;
+}
+
+input {
+ margin-left: 8px;
+    outline-color: white;
+    border: none;
+    margin-top: 1px;
+    -moz-appearance: textfield;
+    width: 9em;
+}
+ 
+input::-webkit-inner-spin-button { 
+  display: none;
+}
+
+.left-input div {
+ border: 2px solid black;
+ width: 122px;
+ height: 23px;
+ padding: 7px;
+}
+
+.right-input div {
+ border: 2px solid black;
+ width: 120px;
+ height: 23px;
+ padding: 7px;
+}
+.write2 {
+   margin-left: 25px;
+}
+footer {
+display: flex;
+color: white;
+background-image: url(image/footer.png);
+text-align: center;
+text-transform: uppercase;
+font-size: 14px;
+justify-content: space-between;
+padding: 40px 22% 40px 20%;
+margin-top: 50px;
+}
